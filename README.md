@@ -1,5 +1,8 @@
 # Data processing of KIE measurement from Mass Spectrometry Data
 
+![png](./images/Process.png)
+
+
 
 ```python
 #import data
