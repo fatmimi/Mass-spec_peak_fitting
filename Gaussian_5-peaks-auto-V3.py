@@ -2,7 +2,7 @@
 """
 Created on Sun Aug  6 02:31:27 2017
 
-@author: fatmi
+@author: Hsuan-Chun Lin
 """
 
 #import data
@@ -138,11 +138,16 @@ for item in filelist:
         comd1 = "x" + str(i) + "= peak"+str(i)
         comd2 = "a" + str(i) + "= a"+str(i)
         comd3 = "sigma" + str(i) + "= sigma"+str(i)
+
+        print(comd1)
+        print(comd2)
+        print(comd3)
+
         exec(comd1)
         exec(comd2)
         exec(comd3)
     integration_result, integration_err = integrate.quad(inte, peak_range[0], peak_range[1] )
-    #print(integration_result, integration_err)
+    print(integration_result, integration_err)
     
     parameters = []
     for i in range(0,peak_number):
