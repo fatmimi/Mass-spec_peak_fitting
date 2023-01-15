@@ -1,6 +1,6 @@
 # Peak fitting of KIE measurement from Mass Spectrometry Data
 
-This code has been applied on the following publication in order to accelerate the data processing efficiency of peak fitting and verified by the traditional method with [Origin](https://www.originlab.com).
+This code has been applied on the following publications in order to accelerate the data processing efficiency of peak fitting and was verified by the traditional method with [Origin](https://www.originlab.com).
 
 - **Hsuan-Chun Lin**, Benjamin Weissman, Syed Shahbaz Gardezi, Vernon Anderson, Darrin York, Joseph Piccirilli, Michael Harris **2018 ACS National meeting New Orleans, March 22-26**
 Kinetic isotope effects on catalysis by the HDV ribozyme-precise determination of isotope ratios using electrospray ionization time-of-flight mass spectrometry
